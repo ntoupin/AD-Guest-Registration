@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.halfwidth {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#filter {
+	float: right;
+}
+body a:link:after, body a:visited:after {    
+  content: "";
+}
+
+body {
+	    padding-top: 70px;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.smfont {
+	font-size:14px;
+}
+.textcenter{
+	text-align:center
+}
+.navbar {
+	margin-bottom: 20px;
+}
